@@ -1,6 +1,6 @@
 # Add event app
 
-This repository is an example of simpole fullstack app handling event form and adding record to mongodb with node.js + express
+This repository is an example of simple fullstack app, handling event form and adding record to mongodb with node.js + express
 
 ## Getting Started
 

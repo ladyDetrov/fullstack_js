@@ -1,5 +1,5 @@
 import React from "react";
-import {Card, CardBody, CardHeader, CardTitle, Col, Row, CardText, Form} from "reactstrap";
+import {Card, CardBody, CardHeader, CardTitle, Col, Row} from "reactstrap";
 import { connect } from 'react-redux'
 
 import { addEvent } from 'redux/actions/event/event.actions';
