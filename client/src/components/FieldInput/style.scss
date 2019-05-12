@@ -1,0 +1,38 @@
+.input-invalid {
+  border-color: red !important;
+}
+.form-group {
+  label {
+    display: inline-block;
+    line-height: 2.2rem;
+  }
+
+  input:not([type='checkbox']),
+  textarea {
+    &.input-invalid {
+      border-color: darkred !important;
+
+      &:focus {
+        box-shadow: 0 0 2px darkred !important;
+      }
+    }
+
+    &:focus {
+      box-shadow: 0 0 2px darkred !important;
+    }
+  }
+
+  .invalid-feedback {
+    display: inline-block;
+  }
+}
+
+.info-box {
+  span {
+    line-height: 27px;
+  }
+
+  > span {
+    font-weight: 600;
+  }
+}
